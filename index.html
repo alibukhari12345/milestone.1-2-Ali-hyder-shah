@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h2>Milestone 1 : Static Resume Build by Ali Hyder Shah</h2>
+    </div> 
+    <br><br><br>
+    <form id="resumeForm">
+        <fieldset>
+            <img src="profile.jpeg" alt="photo">
+            <legend>Personal Information📝</legend>
+            <label for="name">Name:</label>
+            <h3 id="name"> Ali Hyder Shah</h3>
+
+            <label for="email">Email:</label>
+            <h3>a17574400@gmail.com</h3>
+
+            <label for="phone">Phone:</label>
+           <h3>03161389393</h3>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education🖋</legend><br>
+            <ul>
+                <li>Matric (A one Grade)</li>
+
+                <li>Second Intermediate (A grade) </li>
+                <li>Mern Stack in Web Developmemnt(2 year expereience) <br></li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience🔎</legend>
+            <ul><li>Two Year in Web developement </li></ul>
+        </fieldset>
+ 
+
+        <fieldset id="skillFieldset">
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Tailwind</li>
+            <li>Next.js</li>
+            <li>My Sql</li>
+            <li>Typescript</li>
+          </ul>
+        </fieldset>
+        
+       
+<div id="btn">
+            <button class="btn" type="button" id="toggleButton">Skill Show</button>
+        </div>
+
+
+        <div id="btn">
+            <button  type="button" id="toggleButton">Generate Resume</button>
+      
+      
+        </div>
+    </form>
+
+    <div id="resumeOutput">
+        <!-- Generate Resume Section -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
